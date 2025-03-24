@@ -16,16 +16,16 @@
     <title>Aparta tu Casa</title>
   </head>
   <body>
-    <div id="container">
+    <div id="container" class="container">
       <nav>
-        <a href="#" class="logo"><img src="#" alt="#"></a>
+        <a href="#" ><img src="#" class="logo" alt="#"></a>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Listing</a></li>
-          <li><a href="#">Properties</a></li>
-          <li><a href="#">Pages</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Home <i class="fa-solid fa-angle-down"></i></a></li>
+          <li><a href="#">Listing <i class="fa-solid fa-angle-down"></i></a></li>
+          <li><a href="#">Properties <i class="fa-solid fa-angle-down"></i></a></li>
+          <li><a href="#">Pages <i class="fa-solid fa-angle-down"></i></a></li>
+          <li><a href="#">Blog <i class="fa-solid fa-angle-down"></i></a></li>
+          <li><a href="#">Dashboard <i class="fa-solid fa-angle-down"></i></a></li>
         </ul>
         <button class="login">Login/Register</button>
       </nav>
@@ -51,6 +51,27 @@
           </form>
         </div>
       </header>
+      <section class="properties-recomendation">
+        <div class="property-info">
+          <span>Featured Properties</span>
+          <h2>Recommended For You</h2>
+
+          <div class="properties">
+            <div class="type-of-property">
+              <ul>
+                <li>View All</li>
+                <li>Apartment</li>
+                <li>Villa</li>
+                <li>Studio</li>
+                <li>House</li>
+                <li>Office</li>
+              </ul>
+            </div>
+          <!-- waiting for properties -->
+           <button class="view-all-properties">View All PRoperties</button>
+          </div>
+        </div>
+      </section>
     </div>
     <script type="module" src="/src/main.js"></script>
   </body>
