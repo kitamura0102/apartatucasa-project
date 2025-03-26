@@ -12,42 +12,82 @@
       rel="stylesheet"
     />
     <!-- fontAwesome -->
-    <script src="https://kit.fontawesome.com/f3b2bd313f.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/f3b2bd313f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Aparta tu Casa</title>
   </head>
   <body>
-    <div id="container" class="container">
+    <main id="container" class="container">
       <nav>
-        <a href="#" ><img src="#" class="logo" alt="#"></a>
+        <a href="#"><img src="/src/assets/logo.png" class="logo" alt="#" /></a>
         <ul>
-          <li><a href="#">Home <i class="fa-solid fa-angle-down"></i></a></li>
-          <li><a href="#">Listing <i class="fa-solid fa-angle-down"></i></a></li>
-          <li><a href="#">Properties <i class="fa-solid fa-angle-down"></i></a></li>
-          <li><a href="#">Pages <i class="fa-solid fa-angle-down"></i></a></li>
-          <li><a href="#">Blog <i class="fa-solid fa-angle-down"></i></a></li>
-          <li><a href="#">Dashboard <i class="fa-solid fa-angle-down"></i></a></li>
+          <li>
+            <a href="#">Home <i class="fa-solid fa-angle-down"></i></a>
+          </li>
+          <li>
+            <a href="#">Listing <i class="fa-solid fa-angle-down"></i></a>
+          </li>
+          <li>
+            <a href="#">Properties <i class="fa-solid fa-angle-down"></i></a>
+          </li>
+          <li>
+            <a href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
+          </li>
+          <li>
+            <a href="#">Blog <i class="fa-solid fa-angle-down"></i></a>
+          </li>
+          <li>
+            <a href="#">Dashboard <i class="fa-solid fa-angle-down"></i></a>
+          </li>
         </ul>
         <button class="login">Login/Register</button>
       </nav>
       <header>
         <div class="main-section">
           <h1>Find your dream house</h1>
-          <p>We are a real estate agency that will help you find the best residence you dream of, let’s discuss for your dream house?</p>
+          <p>
+            We are a real estate agency that will help you find the best
+            residence you <br />
+            dream of, let’s discuss for your dream house?
+          </p>
 
           <form action="for-rent">
-            <label for="keyword">Keyword</label>
-            <input type="text" name="keyword" id="keyword" placeholder="Search Keyword.">
-            <label for="location">Location</label>
-            <input type="text" name="location" id="locationd" placeholder="Search Location">
-            <label for="type">Type</label>
-            <select name="type" id="type">
-             <option value="all">All</option> 
-             <option value="villa">Villa</option>
-             <option value="studio">Studio</option>
-             <option value="office">Office</option>
-             <option value="house">House</option>
-            </select>
-            <button class="advance-btn">Advance <i class="fa-solid fa-sliders"></i></button>
+            <div class="form-type">
+              <label for="keyword">Keyword</label>
+              <input
+                type="text"
+                name="keyword"
+                id="keyword"
+                placeholder="Search Keyword."
+              />
+            </div>
+            <div class="form-type">
+              <label for="location">Location</label>
+              <input
+                type="text"
+                name="location"
+                id="locationd"
+                placeholder="Search Location"
+              />
+            </div>
+            <div class="form-type">
+              <label for="type">Type</label>
+
+              <select name="type" id="type">
+                <option value="all">All</option>
+                <option value="villa">Villa</option>
+                <option value="studio">Studio</option>
+                <option value="office">Office</option>
+                <option value="house">House</option>
+              </select>
+            </div>
+            
+            <button class="advance-btn">
+              Advanced <i class="fa-solid fa-sliders btn-icon fa-lg"></i>
+            </button>
+            <button class="submit-properties">Find Properties</button>
           </form>
         </div>
       </header>
@@ -67,13 +107,12 @@
                 <li>Office</li>
               </ul>
             </div>
-          <!-- waiting for properties -->
-           <button class="view-all-properties">View All PRoperties</button>
+            <!-- waiting for properties -->
+            <button class="view-all-properties">View All PRoperties</button>
           </div>
         </div>
       </section>
-    </div>
+    </main>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
-
